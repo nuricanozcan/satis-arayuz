@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satış Arayüzü</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            width: calc(100% - 20px);
+            padding: 15px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+        }
+        .instagram { background-color: #E1306C; }
+        .shopier { background-color: #007bff; }
+        .banka { background-color: #28a745; }
+        .whatsapp { background-color: rgb(94, 54, 5);}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>İLETİŞİM</h2>
+        <a href="https://instagram.com/urbansneakertr" class="button instagram">Instagram Ürünlerim</a>
+        <a href="https://www.shopier.com/urbansneaker" class="button shopier">Shopier’den Satın Al</a>
+        <a href="#" class="button banka" onclick="alert('Whatsapp veya İnstagramdan iletişime geçiniz.');">Banka ile Ödeme</a>
+        <a href="https://api.whatsapp.com/send?phone=905384781412&text=Merhaba, ürünler hakkında bilgi almak istiyorum." class="button whatsapp">WhatsApp ile İletişime Geç</a>
+
+    </div>
+</body>
+</html>
